@@ -1,0 +1,203 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: 'Signika', sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+
+
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.chalk {background: url('../img/chalkboard.jpg') ;
+    
+}
+
+.chalk p, h1, h2, h3, h4, h5, h6 {color: #FFFFFF;
+font-family:'Chelsea Market', cursive;}
+
+
+
+.box {
+    /*margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9)*/;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+   /* background: #fff;
+    background: rgba(255,255,255,0.9)*/;
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+
+@import url(https://fonts.googleapis.com/css?family=Signika:400,600);
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+.navbar-inner {
+    background-color:transparent;
+}
+ #custom-bootstrap-menu.navbar-default .navbar-brand 
+ {color: rgba(252, 255, 252, 1);}
+#custom-bootstrap-menu.navbar-default 
+    {font-size: 20px;
+    background-color: rgba(10, 9, 9, 1);
+    border-width: 10px;
+    border-radius: 45px;}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a 
+    {color: rgba(252, 255, 252, 1);
+    /*background-color: rgba(248, 248, 248, 0);*/}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus 
+    {color: rgba(0, 0, 0, 1);
+    background-color: rgba(54, 158, 83, 1);
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 1) 0%, rgba(54, 158, 83, 1) 100%);
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(54, 158, 83, 1) 100%);}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus 
+{color: rgba(0, 0, 0, 1);
+    background-color: rgba(231, 231, 231, 1);
+    background: -webkit-linear-gradient(top, rgba(5, 5, 5, 1) 0%, rgba(231, 231, 231, 1) 100%);
+    background: linear-gradient(to bottom, rgba(5, 5, 5, 1) 0%, rgba(231, 231, 231, 1) 100%);}
+#custom-bootstrap-menu.navbar-default .navbar-toggle
+ {border-color: #ddd;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus 
+{background-color: #ddd;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar 
+{background-color: #888;}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar 
+{ background-color: #0a0909;}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+.navbar-inverse {border: none;
+    background-color: transparent;
+}
+
