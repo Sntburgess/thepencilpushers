@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 h1,
@@ -18,7 +19,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 { 
+    background: transparent;
     text-transform: uppercase;
     font-family: 'Signika', sans-serif;
     font-weight: 700;
@@ -72,16 +74,17 @@ hr {
     
 }
 
+
 .chalk p, h1, h2, h3, h4, h5, h6 {color: #FFFFFF;
 font-family:'Chelsea Market', cursive;}
 
-
+.well {background: transparent;}
 
 .box {
-    /*margin-bottom: 20px;
+    margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9)*/;
+    background: rgba(255,255,255,0.9);
 }
 
 .intro-text {
@@ -89,6 +92,66 @@ font-family:'Chelsea Market', cursive;}
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+
+.btn-default {
+  color: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:hover {
+  color: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus {
+  /*background-color: #fff;
+  border-color: #ccc;*/
+}
+.btn-default .badge {
+
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .img-border {
@@ -198,6 +261,31 @@ footer p {
 
 
 .navbar-inverse {border: none;
-    background-color: transparent;
+    background: transparent;
 }
+
+.pic{
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: right;
+    width: 360px;
+}   
+
+.pic:hover {
+    border: 2px solid #777;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+}
+
+
+.contactme p, h1, h2, h3, h4, h5, h6 {color: #FFFFFF;
+font-family:'Chelsea Market', cursive; 
+
+}
+
+.contactme {border: none;
+background: transparent;}
 
